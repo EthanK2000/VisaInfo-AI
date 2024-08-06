@@ -1,7 +1,7 @@
 FROM ethankraus/llmware:visainfo
 
 ARG USERNAME=visainfo-ai
-ARG USER_UID=1000
+ARG USER_UID=1001
 ARG USER_GID=$USER_UID
 ENV PYTHONPATH=/visainfo-ai
 
